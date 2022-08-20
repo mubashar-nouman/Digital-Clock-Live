@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,500;1,700;1,900&display=swap');
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: #069a8e;
+    color: white;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.4rem;
+    font-size: 4.4rem;
+    text-align: center;
+}
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.clock div{
+    margin: 1rem 3rem;
+    background-color: thistle;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+    width: 8%;
+    box-shadow: 10px 10px 70px #00d2c6, 
+            -20px -20px 90px #00ffff;
+}
+.text, #minutes, #hours, #seconds, #ampm{
+    margin-left: 0.8rem;
+    font-size: 2.4rem;
+    color: #292929;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica,Times, serif;
+}
+.text{
+    height: 30px;
+}
+#ampm{
+    margin-top: 1.65rem;
+}
